@@ -29,7 +29,12 @@
 
 	<rule ref="WordPress.XSS.EscapeOutput"/>
 	<rule ref="WordPress.CSRF.NonceVerification" />
+	<rule ref="WordPress.PHP.DevelopmentFunctions"/>
 	<rule ref="WordPress.PHP.DiscouragedFunctions"/>
+	<rule ref="WordPress.PHP.RestrictedFunctions"/>
+	<rule ref="WordPress.WP.DeprecatedFunctions"/>
+	<rule ref="WordPress.WP.AlternativeFunctions"/>
+	<rule ref="WordPress.WP.DiscouragedFunctions"/>
 	<rule ref="WordPress.WP.EnqueuedResources"/>
 	<rule ref="WordPress.Variables.GlobalVariables"/>
 	<rule ref="WordPress.PHP.StrictComparisons" />
